@@ -6,10 +6,10 @@ Option Explicit
 ' Purpose: Export ActiveWorkbook VBA code to text files
 ' Procedure Kind: Sub
 ' Procedure Access: Public
-' Author: gerge
+' Author: Gergely Gyetvai
 ' Date: 15/09/2018
 ' ----------------------------------------------------------------
-Sub mainExportVBACode(control As IRibbonControl)
+Sub mainExportVBACode()
 
     Dim srcWb As Workbook
     Dim srcVBAProject As Object

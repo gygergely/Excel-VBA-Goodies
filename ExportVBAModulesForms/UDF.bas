@@ -6,7 +6,7 @@ Attribute VB_Name = "UDF"
 ' Procedure Access: Public
 ' Parameter srcVBAProject (Object): VBA project to check
 ' Return Type: Boolean
-' Author: gerge
+' Author: Gergely Gyetvai
 ' Date: 15/09/2018
 ' ----------------------------------------------------------------
 Function f_isVBAProjectProtected(srcVBAProject As Object) As Boolean

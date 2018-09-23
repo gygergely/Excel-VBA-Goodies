@@ -11,7 +11,7 @@ Public userCalculationSettings As Variant
 ' Author: Gergely Gyetvai
 ' Date: 23/09/2018
 ' ----------------------------------------------------------------
-Sub mainVBAProjectReport(control As IRibbonControl)
+Sub mainVBAProjectReport()
 
     Dim srcWb As Workbook
     Dim srcVBAProject As Object

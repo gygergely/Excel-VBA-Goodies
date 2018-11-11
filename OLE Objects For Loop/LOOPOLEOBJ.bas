@@ -13,7 +13,6 @@ Sub OLEObjectsLoop()
 
     Dim oleObj As OLEObject
     Dim sh As Worksheet
-    Dim counter As Long
 
     For Each sh In ActiveWorkbook.Worksheets
     

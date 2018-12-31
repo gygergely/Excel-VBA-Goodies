@@ -1,2 +1,2 @@
-# ExcelVBAProjects
-User defined functions, examples, addins
+# Excel VBA Goodies
+Easy to follow examples about basic challanges

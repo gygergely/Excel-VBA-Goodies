@@ -26,7 +26,7 @@ Sub namesWithSameRefersTo()
     Set nameDictionary = CreateObject("scripting.dictionary")
     Set duplicateDictionary = CreateObject("scripting.dictionary")
         
-        'Loop through all the names in the ActiveWorkbook, adding names ReferTo property to nameDictionary, if it is
+        'Loop through all the names in the ActiveWorkbook, adding names RefersTo property to nameDictionary, if it is
         'already existing add them to duplicateDictionary in order to find the 1st occurence check if the name's name is existing
         'in the duplicateDictionary go forward otherwise add it
         
@@ -53,6 +53,8 @@ Sub namesWithSameRefersTo()
         'If there is any duplicated or multiplicated RefersTo create a report
         If counter > 0 Then
             Call createReport(duplicateDictionary)
+        Else
+            MsgBox "No multiplicated RefersTo found in Names.", vbInformation, "No mulitplicated RefersTo"
         End If
 
     Else

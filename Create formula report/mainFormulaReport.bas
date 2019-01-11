@@ -89,7 +89,8 @@ Sub createFormulaReport(srcReport() As Variant)
     
     'Print out array
     Set rng = sh.Cells(6, 1).Resize(UBound(srcReport, 2), UBound(srcReport, 1))
-    rng = Application.WorksheetFunction.Transpose(srcReport)
+    srcReport = f_transposeArray(srcReport)
+    rng.Value2 = srcReport
     
     'Autofit Columns / max width 80
     For i = 1 To 7
